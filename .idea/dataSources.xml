@@ -1,10 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="DataSourceManagerImpl" format="xml" hash="3923477498">
+  <component name="DataSourceManagerImpl" format="xml" hash="3508042552">
     <data-source source="LOCAL" name="Rails themetest: development" uuid="5481f352-be2c-42ea-8204-8d19349be7d8">
       <driver-ref>sqlite.xerial</driver-ref>
       <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
       <jdbc-url>jdbc:sqlite:$PROJECT_DIR$/db/development.sqlite3</jdbc-url>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="Rails themetest: production" uuid="5d872c77-e2d4-441d-a901-4eab3d1a1621">
+      <driver-ref>postgresql</driver-ref>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql:my_database_production</jdbc-url>
       <libraries />
     </data-source>
   </component>
